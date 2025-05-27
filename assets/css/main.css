@@ -8,12 +8,12 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #070d1a; /* Background color for the entire website, including individual sections */
-  --default-color: #e4edf5; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #f2f8fe; /* Color for headings, subheadings and title throughout the website */
+  --background-color: #0000; /* Background color for the entire website, including individual sections */
+  --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #5e0404; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #10a3d7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #131825; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --surface-color: #800d0d; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #0000; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -28,7 +28,7 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 .light-background {
-  --background-color: #111623;
+  --background-color: #5e0404;
   --surface-color: #161c2a;
 }
 
@@ -144,7 +144,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 42px;
   margin-right: 8px;
 }
 
