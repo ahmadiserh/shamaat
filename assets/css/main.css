@@ -1183,13 +1183,21 @@ section,
   transition: 0.9s;
   background-color: var(--heading-color);
 }
+/*--------------------------------------------------------------
+# almajirai section Section
+--------------------------------------------------------------*/
+.almajirai .almajirai-item {
+  background-color: #ffffff;
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  height: 100%;
+}
 
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  background-color: var(--surface-color);
-  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+  background-color: #eeeeee;
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   height: 100%;
